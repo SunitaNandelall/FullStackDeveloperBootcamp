@@ -1,0 +1,20 @@
+body {
+    background-color: #1B263B;
+    color: #0D1B2A;
+    margin-top: 0;
+}
+
+.custom-header {
+    background: radial-gradient(circle, rgba(119, 141, 169, 1) 50%, rgba(224, 225, 221, 1) 90%);
+}
+
+@media screen and (max-width: 768px) {
+    #category-section {
+        margin-bottom: 1rem;
+    }
+
+    .friend-card {
+        width: 200px;
+        margin: auto;
+    }
+}

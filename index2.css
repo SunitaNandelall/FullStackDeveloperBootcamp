@@ -1,0 +1,36 @@
+body {
+    background-color: #778DA9;
+    color: #1B263B;
+    margin-top: 0;
+}
+
+.custom-header {
+    background: #E0E1DD;
+    background: radial-gradient(circle, rgba(119, 141, 169, 1) 50%, rgba(224, 225, 221, 1) 90%);
+}
+
+@media screen and (max-width: 768px) {
+    #category-section {
+        margin-bottom: 1rem;
+    }
+
+    .friends-card {
+        text-align: center;
+        padding-top: 1em;
+        margin: auto;
+        max-width: 300px;
+    }
+
+    .friends-card img {
+        width: 100px !important;
+        border-radius: 50% !important;
+    }
+
+    .friends-card .friends-name {
+        flex-direction: column;
+    }
+
+    .friends-card .card-text {
+        padding-bottom: 1em;
+    }
+}
